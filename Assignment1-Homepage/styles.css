@@ -1,0 +1,85 @@
+* {
+
+font-family: sans-serif;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://color-hex.org/colors/efe8f9.png);
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: monospace;
+}
+
+h2, h4 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: #dd1e2e;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #7e3ff2;
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+ol, ul {
+  width: 400px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.quote {
+  text-align: center;
+  border: 3px solid green;
+}
+
+img{  
+ text-align:  justify;
+ height:50%;  
+ width: 50%;  
+ }
+
+a {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+table, th, td {
+  border: 0px solid white;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+th, td {
+  border: none;
+}
+
+tr:nth-child(odd) {
+  background-color: #bdc4f2;
+  text-align: left;
+
+}
