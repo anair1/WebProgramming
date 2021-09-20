@@ -1,0 +1,41 @@
+header {
+	text-align: center;
+}
+
+main {
+	align-self: center;
+	display: flex;
+  	width: 70%;
+    align-content: center;
+    margin: 0 auto;
+} 
+
+#lcolumn {
+	flex-basis: 33%;
+} 
+
+#rcolumn {
+	flex-basis: 67%;
+}
+
+.columns_ {
+	padding: 2em;
+	margin: 2em;
+	border-style: dashed;
+	border-width: 4px;
+	border-color: red;
+}
+
+img {
+	float: right;
+	width: 200px;
+}
+
+#p2 {
+	clear: both;
+}
+
+#lastp {
+	position: fixed;
+	bottom: 5px;
+}
